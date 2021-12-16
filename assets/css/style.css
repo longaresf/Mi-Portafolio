@@ -17,7 +17,7 @@
 
 .navbar-brand {
     color: var(--white);
-    font-family: Oswald;
+    font-family: "Oswald";
     font-weight: bold;
     font-size: 40pt;
     padding: 0 0 0 0;
@@ -57,29 +57,44 @@
 }
 
 #hero-section h1 {
-    font-family: Oswald;
+    font-family: "Oswald";
     font-size: 72pt;
 }
 
 #hero-section h1:first-child {
     font-weight: 200;
-
 }
 
 #hero-section h1:last-child {
     font-weight: 900;
-    
 }
 
 /* Sobre Mi */
 
 #sobre-mi {
     color: var(--gray);
-    font-family: Open Sans;
+    font-family: "Open Sans";
     line-height: 3;
 }
 
+/* Mi Experiencia */
 
+#experiencia div h1 {
+    font-family: "Oswald";
+    font-size: 52pt;
+}
 
+#experiencia i {
+    color: var(--vintage);
+}
+
+#experiencia div:last-child article h4:first-child {
+    font-family: "Oswald";
+}
+
+#experiencia div:last-child article h4:last-child {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
 
 
