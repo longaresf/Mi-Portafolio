@@ -1,0 +1,85 @@
+:root {
+    --gray:#373a3c;
+    --white:#fff;
+    --black:#000000;
+    --vintage:#660066;
+    --white2:#dddddd;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--vintage);
+}
+
+.navbar-brand {
+    color: var(--white);
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 40pt;
+    padding: 0 0 0 0;
+}
+
+.nav-link {
+    color: var(--white);
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+.navbar-nav {
+    padding: 0 0 0 35rem;
+}
+
+/* Hero Section */
+
+#hero-section {
+    background-size: cover;
+    background-image: url("../img/img-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    position: relative;
+}
+
+#hero-section div {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-line {
+    width: 345px;
+}
+
+#hero-section h1 {
+    font-family: Oswald;
+    font-size: 72pt;
+}
+
+#hero-section h1:first-child {
+    font-weight: 200;
+
+}
+
+#hero-section h1:last-child {
+    font-weight: 900;
+    
+}
+
+/* Sobre Mi */
+
+#sobre-mi {
+    color: var(--gray);
+    font-family: Open Sans;
+    line-height: 3;
+}
+
+
+
+
+
