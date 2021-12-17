@@ -97,4 +97,22 @@
     font-weight: 300;
 }
 
+/* Mis últimos trabajos*/
+
+#trabajos {
+    background-color: var(--vintage);
+    font-family: "Oswald";
+}
+
+#trabajos h1 {
+    font-size: 52px;
+}
+
+/* Contacto */
+
+#contacto h1 {
+    font-family: "Oswald";
+    font-size: 52px;
+}
+
 
