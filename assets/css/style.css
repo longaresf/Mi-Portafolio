@@ -115,4 +115,17 @@
     font-size: 52px;
 }
 
+/* Footer */
 
+#footer {
+    background-color: var(--vintage);
+}
+
+#footer h1 {
+    font-family: "Oswald";
+}
+
+#footer a {
+    color: var(--white);
+    text-decoration: none;
+}
