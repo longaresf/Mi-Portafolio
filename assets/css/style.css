@@ -4,9 +4,10 @@
     --black:#000000;
     --vintage:#660066;
     --white2:#dddddd;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
+ }
+
+html {
+    scroll-behavior: auto !important;
 }
 
 /* Navbar */
