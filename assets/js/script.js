@@ -1,20 +1,17 @@
 
   $(document).ready(function(){
-    $("#enviarCorreo").click(function(){
-      alert("El correo fue enviado correctamente...");
+    $("#experiencia").click(function(){
+        $(".fab").toggle();
+        $(".fas").toggle();
+        $("h4").toggle();
     });
   });
 
-  $(document).ready(function(){
-    $("u").on("dblclick", function(){
-        $(this).css("color", "red");
+ 
+  $( "#trabajos" ).click(function() {
+    $( ".card" ).fadeOut( 2000, function() {
+      $( ".card" ).fadeIn( 4000 );
     });
+    return false;
   });
-
-  $(document).ready(function(){
-    $("h5").click(function(){
-        $(".img1").toggle();
-        $(".text1").toggle();
-    });
-  });
-
+ 
